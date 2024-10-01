@@ -17,3 +17,11 @@ body{
   table {
     overflow: auto;
   }
+
+  small {
+    color: var(--c-black-5);
+  }
+
+  small > * {
+    color: var(--c-black-5);
+  }
